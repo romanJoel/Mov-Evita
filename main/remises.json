@@ -1,0 +1,57 @@
+{
+    "remises":[
+        {
+            "nombre": "nombre",
+            "img":"../imagenes/auto-1.jpg",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        },{
+            "nombre": "nombre",
+            "img":"../",
+            "telefono":125618156121
+        }
+    ]
+}

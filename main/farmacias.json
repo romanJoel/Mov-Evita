@@ -1,0 +1,35 @@
+{
+    "farmacias":[
+        {
+            "nombre": "Farmacia Arias",
+            "img":"../M.E-Alvarez/farmacias/fotoFarmaciaCarestia.jpg",
+            "direccion": "Tucuman 917",
+            "telefono": 3402461361
+        },{
+            "nombre": "Farmacia Carestia",
+            "img":"",
+            "direccion": "Salta y Gral paz",
+            "telefono": 1234
+        },{
+            "nombre": "Farmacia Cicconi",
+            "img":"",
+            "direccion": "Cerrito 684",
+            "telefono": 461418
+        },{
+            "nombre": "Farmacia Cipriani",
+            "img":"",
+            "direccion": "Bv. San Martin 603",
+            "telefono": 461954
+        },{
+            "nombre": "Farmacia Nencioni",
+            "img":"",
+            "direccion": "Saavedra 799",
+            "telefono": 467030
+        },{
+            "nombre": "Farmacia Placenti",
+            "img":"",
+            "direccion": "Bv. Belgrano 632",
+            "telefono": 461369
+        }
+    ]
+}

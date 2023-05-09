@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/*General*/
+:root {
+    --white: #FFFFFF;
+    --blue: #07519f;
+    --blue2: #B9CCFC;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #22222b;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+  }
+  body {
+    margin: 0;
+  }
+  h3{
+    border-bottom: 1px solid var(--hospital-green);
+    font-family: 'Roboto Condensed';
+  }
+  p{
+    font-size: x-large;
+    font-family: 'Roboto Condensed';
+  }
+.nueva{
+  font-size: 3em;
+  background: #22222b;
+}
+/*nav general*/
+  .none{
+    display: none;
+  }
+
+  .nav {
+    width: 90%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background: var(--blue);
+    border-bottom: 1px solid var(--very-light-pink);
+  }
+  .divHam{
+    background: inherit;
+    border: 1px solid var(--white);
+    border-radius: 2px;
+    width: 10%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-logo{
+    transform: translateX(-20px);
+  }
+  .logo-a {
+   text-decoration: none;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 1.2rem;
+   font-weight: 600;
+   color: var(--white);
+  }
+.divContainer{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+  /*menu en movile*/
+  .mobile-menu {
+    background: var(--blue);
+    position: absolute;
+    top: 80px;
+    padding: 10px;
+    margin-left: -24px;
+
+  }
+  .mobile-menu a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+    /* margin-bottom: 24px; */
+  }
+  .mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+  }
+  .mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--very-light-pink);
+  }
+  .mobile-menu ul li {
+    margin-bottom: 24px;
+  }
+  /********** propaganda *********/
+.propaganda{  
+  width: 100%;
+  height: 110vh;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.span-icon-close{
+  display: grid;
+  place-items: center;
+  width: 20%;
+  height: 15%;
+  text-align: center;
+  border: 1px solid #000;
+}
+.div-propaganda-img{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+.div-propaganda-img img{
+  width: 100%;
+  height: 100%;
+
+}
+  /*-----imagen portada-----*/
+  .divPortada{
+    display: block;
+    height: 25vh;
+  }
+  .img-portada{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 15px 0;
+  }
+/*-----article-----*/
+.article{
+    width: 95%;
+    height: 12vh;
+    border: 1px solid #C7C7C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 29px 10px;
+    border-bottom:2px solid var(--blue) ;
+    border-top: 2px solid var(--blue) ;
+    
+}
+.parrafo{
+    color: var(--blue);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.8em;
+
+}
+.div-movimientoEvita{
+  background: var(--blue2);
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-top: 8px;
+}
+.movEvita{
+  width: 30%;
+  height: 65%;
+  border-radius: 40%;
+}
+.movEvita img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10%;
+}
+/*----- Section divs-----*/
+.div-general{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+}
+.section-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10%;
+}
+.name-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 50%;
+  height: 7vh;
+  border-radius: 10px;
+  background: var(--blue);
+  border: 3px solid var(--blue2);
+}
+.parrafo-p{
+  text-decoration: inherit;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+.telefonosUtiles{
+  color: var(--blue);
+  width: 50%;
+  margin: auto;
+  border: 2px solid #07519f;
+  padding: 20px 0;
+  text-align: center;
+  transform: translateY(20px);
+}
+
+
+/*-------------------- ventana principal --------------------*/
+.section{
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.divSection{
+  padding: 8px;
+  width: 85%;
+  height: 100%;
+  background: var(--blue2);
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.figure{
+ width: 49%;
+ height: 98%;
+ border-radius: 100%;
+ background: url(../M.E-Alvarez/samco/samco-img.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+ }
+
+.a-button{
+  width: 50%;
+  background: var(--blue);
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14%;
+}
+.a-button a{
+  color: var(--white);
+  text-decoration: none;
+  font-family: 'Roboto Condensed';
+  font-size: 1.3em;
+  font-weight: bold;
+  font-variant: petite-caps;
+}
+.div-direccion{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.div-img{
+  width: 100%;
+  height: 230px;
+  text-align: center;
+}
+.div-img img{
+  border-radius: 100%;
+}
+/********** Ventana samco **********/
+
+/********** Ventana bomberos ********/
+.sectionBomberos{
+  height: 90vh;
+}
+.divSection-bomberos{
+  height: 80vh;
+}
+.bomberos{
+  width: 50%;
+  height: 41%;
+  border-radius: 100%;
+  background: url(../M.E-Alvarez/bomberos/bomberos-img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+
+  /********** Ventana policia *********/
+.div-imgPolicia img{
+  width: 70%;
+  height: 95%;
+}
+
+/*-------------------- ventana colectivo -------------------*/
+.sectionColectivo{
+  width: 100%;
+  height: 221vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+.imgColectivo{
+  width: 50%;
+  height: 25vh;
+  border-radius: 100%;
+  border: 1px solid #000;
+  align-items: center;
+  background: url(../M.E-Alvarez/interbus/interbus-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 14% 32%;
+}
+.item{
+  width: 85%;
+  height:73.6vh ;
+ background: var(--blue2); 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.infoColectivo article{
+  text-align: center;
+}
+.horariosColectivo{
+  width: 100%;
+}
+.horariosColectivo img{
+  width: 100%;
+  height: 100%;
+}
+
+.buttonColectivo{
+  width: 50%;
+  background: var(--blue);
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14%;
+}
+.buttonColectivo a{
+  color: var(--white);
+  text-decoration: none;
+  font-family: 'Roboto Condensed';
+  font-size: 1.3em;
+  font-weight: bold;
+  font-variant: petite-caps;
+}
+
+/*-------------- Ventana Remises-----------------------------*/
+.container-div{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.divContainer-infoRemis{
+  width: 100%;
+  height: 800vh;
+  margin: 15px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.div-card-remis{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  height: 350px;
+  padding: 0;
+  border-radius: 5%;
+  color: white;
+  background: var(--blue);
+}
+.nombresInfoRemis-p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.imgInfo{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 0.5rem;
+}
+.telInfoRemis{
+  text-align: center;
+  width: 30%;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10%;
+}
+/*------- Ventana movimiento evita alvarez---------*/
+.logo-alvarez{
+  transform: translateX(-20px);
+  width: 33%;
+  height: 100%;
+  background: url(../M.E-Alvarez/imagenes/movimientoEvita-Alvarez.jpg);
+  background-size: 126% 165%;
+  background-repeat: no-repeat;
+  background-position: 25%; 
+}
+.evitaAlvarez{
+  margin-top: 5px;
+}
+.articleFrase{
+  background: var(--blue);
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+}
+.articleFrase p{
+  font-size: 1.3em;
+  color: var(--white);
+  text-align: center;
+  margin: 10px;
+}
+.alvarezSection{
+  height: 135vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--blue2);
+}
+.sectionAlvarez{
+  width: 100%;
+}
+.subSectionAlvarez{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: inherit;
+  align-items: center;
+}
+.a-subSectionAlvarez{
+  width: 98%;
+  height: 33%;
+  margin: 15px;
+}
+.a-subSectionAlvarez img{
+height: 100%;
+width: 100%;
+}
+/********* Farmacia **********/
+.section-farmacia{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+}
+.divSection-farmacia{
+  width: 100%;
+  height: 185vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+.farmacia-article{
+  background: var(--blue);
+  width: 80%;
+  height: 280px;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 10%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.farmacia-img-article{
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
+  margin: 5px;
+}
+.farmacia-turnos{
+  width: 100%;
+  height: 100vh;
+}
+.farmacia-turnos img{
+  width: 100%;
+  height: 100%;
+  
+}
+.link-farmacias{
+  width: 60%;
+  height: 100px;
+  background: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto Condensed';
+  font-size: 1.2em;
+  font-weight: bold;
+  font-variant: petite-caps;
+  color: white;
+  text-decoration: none;
+  border-radius: 10%;
+}
+.divSection-farmacia span{
+  width: 50%;
+  background: var(--blue);
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14%;
+  
+}
+.conocer-inicio{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.direccionInfo-p{
+ font-size: 1.2em;
+ font-weight: lighter;
+ color: #000;
+}
+/*********** direcciones farmacias *********/
+.container-div-infoFarmacia{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-direccionesFarmacia{
+  width: 80%;
+  height: 100%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.divDireccionesInfo{
+  width: 80%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--blue);
+  margin: 10px;
+}
+.div-spanDirecciones{
+  width: 80%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;  
+}
+.div-spanDirecciones span{
+  height: 50px;
+}
+/********** Ventana comuna **********/
+.div-imgComuna{
+  width: 60%;
+  height: 32%;
+  background: #FFFFFF;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.div-imgComuna img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 100%;
+}
+/********** Ventana guc **********/
+
+/**********Ventana Juzgado**********/
+.sectionPrincipal-juzgado{
+  width: 100%;
+  height: 195vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .divSection-principal-juzgado{
+   width: 100%;
+   height: 100%;
+   background: var(--blue2);
+   border-radius: 1%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   margin: auto;
+ }
+ .divSection-principal-juzgado span{
+  height: 5%;
+ }
+ .section__infoJuzgado{
+  display: block;
+  text-align: center;
+ }
+ .section__infoJuzgado h3{
+  font-size: 2em;
+ }
+ .section__infoJuzgado a{
+  font-size: 1.2em;
+ }
+ .div-imgJuzgado img{
+  width: 52%;
+  height: 100%;
+ }
+
+ /**********Ventana religion**********/
+ .section-religion{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+ }
+ .divImg-religion{
+  width: 85%;
+  height: 350px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .religion{
+  width: 55%;
+  height: 70%;
+  border-radius: 100%;
+  border: 1px solid var(--blue2);
+  background: url(../M.E-Alvarez/religion/religion-img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.divSection-religion{
+  height: 700px;
+  margin: 12px;
+}
+.div-direccion-religion{
+  width: 20%;
+  height: 100px;
+}
+.divImg-religion2{
+  width: 85%;
+  height: 350px;
+  border-radius: 10%;
+  background: var(--blue2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.religion2{
+  width: 75%;
+  height: 85%;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 5px;
+}
+.religion2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 250%;
+}
+/**********Ventana Santa fe**********/
+.santaFeSection{
+  height: 150vh;
+}
+.sectionSantaFe{
+  width: 95%;
+}
+.subdivSantaFe{
+  width: 100%;
+  height: 33%;
+  background: bisque;
+  border-radius: 10px;
+}
+/*----- footer-----*/
+.footer{
+  background: var(--blue);
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
